@@ -6,7 +6,7 @@
 
 Food::Food(){
 
-    if (!texture.loadFromFile("/users/olamotorola/Desktop/SnakeGame/apple.png")){
+    if (!texture.loadFromFile("../apple.png")){
         std::cout << "Apple image error" << std::endl;}
 
     sprite.setTexture(texture);
