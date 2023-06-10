@@ -8,11 +8,11 @@ Game::Game(): window(sf::VideoMode(600, 600), "Snake Game"), snake(window){
 
     window.setFramerateLimit(10);
 
-    if (!backgroundTexture.loadFromFile("/../background.jpg")){
+    if (!backgroundTexture.loadFromFile("../background.jpg")){
         std::cout << "Background error" << std::endl;}
 
 
-    if (!font.loadFromFile("/../arial.ttf")){
+    if (!font.loadFromFile("../arial.ttf")){
         std::cout << "Font error" << std::endl;}
 
     score = 0;
